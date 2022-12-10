@@ -16,7 +16,7 @@ manufacturer, clinical trial site, etc.
 4. ** Remove the id header and make text file instead of csv** should now have xraynames.txt in your folder containing all the names of the images you want to download from Discovery
 5. transfer this xraynames.txt file as well as the bash script copy_100subset.bash to Discovery in a new folder to keep your xray subsets (/dartfs-hpc/rc/home/t/f006cht/xray_subsets) 
 6. run the copy_100subset.bash script within your xray_subsets folder to copy the file names to the current folder 
-7. run scp -r your_username@discovery.dartmouth.edu:/dartfs-hpc/your/path/to/xray_subsets . on your local computer in a directory you want your xray files to be placed, ie. a new images folder **this is for local run** 
+7. run scp -r your_username@discovery.dartmouth.edu:/dartfs-hpc/your/path/to/xray_subsets . on your local computer in a directory you want your xray files to be placed **this is for local run** 
 
 ## Running the Model 
 8. alter training_pytorch.ipynb to represent your path names METADATA_SUBSET_PATH and self.img_dir, the metadata csv file containing the labels for each xray image as well as the image folder containing the corresponding images 
