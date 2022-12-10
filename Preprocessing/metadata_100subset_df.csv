@@ -1,4 +1,5 @@
-,"(0008, 0070) Manufacturer","(0008, 1090) Manufacturer's Model Name","(0018, 1000) Device Serial Number","(0012, 0030) Clinical Trial Site ID"
+"id","(0008, 0070) Manufacturer","(0008, 1090) Manufacturer's Model Name","(0018, 1000) Device Serial Number","(0012, 0030) Clinical 
+Trial Site ID"
 00700804,AGFA,ADC_51xx,1134,58
 04168501,"""GE Healthcare""","""Definium 5000""",,46
 02127103,"FUJI PHOTO FILM Co., ltd.",,,23
