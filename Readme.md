@@ -1,4 +1,5 @@
 # Github page for XRay Fingerprints DeepLearning Model 
+# Center for AI In Orthopedics Laboratory at Dartmouth 
 ## Training a model to determine XRay Source 
 
 ### Software Requirements: ###
